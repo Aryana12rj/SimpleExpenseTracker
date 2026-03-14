@@ -1,20 +1,33 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" height="475" alt="ExpenseTracker Banner">
 </div>
 
-# Run and deploy your AI Studio app
+# 💰 Simple Expense Tracker (TypeScript)
 
-This contains everything you need to run your app locally.
+A lightweight expense tracker app built with **TypeScript** to help you manage your daily spending and keep track of categories.
 
-View your app in AI Studio: https://ai.studio/apps/9ddf61e6-227e-4d26-af4e-54866ba1d391
+---
 
-## Run Locally
+## 📦 Features
+- Add, edit, and delete expenses  
+- Categorize expenses (Food, Travel, Bills, etc.)  
+- View total and category-wise summaries  
+- Clean, minimal UI built with TypeScript  
+- Error handling for invalid inputs  
 
-**Prerequisites:**  Node.js
+---
+
+## 🚀 Run Locally
+
+**Prerequisites:**  
+- Node.js (v18+ recommended)  
+- npm or yarn  
+
+### Steps
+
+1. **Install dependencies**  
+   ```bash
+   npm install
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
